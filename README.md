@@ -1,4 +1,4 @@
 # BITIBOTONE
 BITIBOTONE IS A BOT FOR BINNING AND CARDING
 
-<img src="biti.jpg">
+<img src="biti.png">
