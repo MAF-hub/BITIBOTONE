@@ -800,7 +800,7 @@ def process(name,names,owner,bot_token):
 
   *SEGUNDO RESULTADO : *`{}`
 
-  *TERCER RESULRADO : *`{}`
+  *TERCER RESULTADO : *`{}`
 
   BY : {}""".format(msg_1,msg_2,msg_3,user)
         elif len(args[0])==14 and len(args[1])==14:
@@ -831,7 +831,7 @@ def process(name,names,owner,bot_token):
 
 <b>FIRST NAME : </b><u><i>{}</i></u>
 
-<b>THANKS FOR USING MY BOT UWU</b>""".format(names,owner,first_name,user)
+<b>THANKS FOR USING MY BOT UWU</b>""".format(names,owner,owner,first_name)
   	update.message.reply_text(msg,parse_mode="HTML")
   def crear(update,context):
     user = update.message.from_user.username
