@@ -13,3 +13,4 @@ mv token.txt documents
 mv owner.txt documents
 clear
 echo 'CREACION DE ARCHIVOS COMPLETA'
+rm -rf script.sh
