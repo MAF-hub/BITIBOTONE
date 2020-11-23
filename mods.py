@@ -1186,12 +1186,12 @@ def main():
   else:
     Owner=owner[0]
   if len(bot)==0:
-    Bot=input("\033[4;33miingrese el nombre del bot :\033[0;m ")
+    Bot=input("\033[4;33mingrese el nombre del bot :\033[0;m ")
     guardar(Bot,"bot")
   else:
     Bot=bot[0]
   if len(token)==0:
-    Token=input("\033[4;33miingrese el token :\033[0;m ")
+    Token=input("\033[4;33mingrese el token :\033[0;m ")
     guardar(Token,"token")
   else:
     Token=token[0]
